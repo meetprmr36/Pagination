@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="/Favicon.png" />
+    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Pagination</title>
+</head>
+
+<body>
+    <div class="Top-content">
+            <p>List</p>
+            <h1>Cars & Bikes of 2025</h1>
+        <!-- <div class="Selector">
+            <select id="Sortselector" class="Sortselector" onchange="handleSortChange(this.value)">
+                <option value="All Type">All Type</option>
+                <option value="Cars">Cars</option>
+                <option value="Bikes">Bikes</option>
+            </select>
+        </div> -->
+    </div>
+    <div class="Table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th class="index">No.</th>
+                    <th class="brand">Brand</th>
+                    <th class="model">Model</th>
+                    <th class="capacity">Capacity</th>
+                    <th class="type">Type</th>
+                    <th class="price">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <div class="TheLine">
+        <div class="item-content">
+            <div id="items-count"></div>
+            <div class="items-per-page">
+                <select id="Theselector" class="Theselector" onchange="handlePerPageChange(this.value)">
+                    <option value="10">10</option>
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+            </div>
+        </div>
+        <div id="pagination"></div>
+    </div>
+    <script type="module" src="Index.js"></script>
+</body>
+
+</html>
