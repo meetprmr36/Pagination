@@ -527,7 +527,8 @@ tbody {
     }
 
     .Table-container {
-        height: calc(65vh - 150px);
+        /* height: calc(65vh - 150px); */
+        height:550px;Ï
     }
 }
 
@@ -538,7 +539,8 @@ tbody {
 
     .Table-container {
         overflow-x: auto;
-        height: calc(100vh - 200px);
+        /* height: calc(100vh - 200px); */
+        height:520px;Ï
         margin: 0px 20px;
         width: 95%;
     }
@@ -591,7 +593,8 @@ tbody {
     }
 
     .Table-container {
-        height: calc(100vh - 200px);
+        /* height: calc(100vh - 200px); */
+        height:515px;Ï
     }
 
     .brand,
@@ -697,10 +700,11 @@ tbody {
         font-size: 30px;
     }
 
-    /* .Table-container {
-        margin: 0px 20px;
-        height: calc(100vh - 250px);
-    } */
+    .Table-container {
+        /* margin: 0px 20px; */
+        /* height: calc(100vh - 250px); */
+        height:500px;Ï
+    }
 
     .index,
     .brand,
@@ -824,7 +828,8 @@ tbody {
     }
 
     .Table-container {
-        height: calc(100vh - 249px);
+        /* height: calc(100vh - 249px); */
+        height:490px;Ï
     }
 
     .Top-content {
