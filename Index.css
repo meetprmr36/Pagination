@@ -880,12 +880,13 @@ tbody {
 
 @media (min-height: 1100px) {
     .Table-container {
-        height: calc(65vh - 250px);
+        /* height: calc(65vh - 250px); */
+        height: 650px;
     }
 }
 
-@media (min-height: 1000px) {
+/* @media (min-height: 1000px) {
     .TheLine {
         flex-direction: column;
     }
-}
+} */
