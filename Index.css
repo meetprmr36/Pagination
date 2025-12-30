@@ -527,7 +527,7 @@ tbody {
     }
 
     .Table-container {
-        height: calc(100vh - 150px);
+        height: calc(65vh - 150px);
     }
 }
 
